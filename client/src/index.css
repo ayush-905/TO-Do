@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    min-height: 15vh;
+    color: aqua;
+    font-size: large;
+}
+.input{
+    text-align: center;
+    margin: 15px 0;
+    width: 50vw;
+    height: 25px;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.btn{
+   padding: 0.5rem 1.5rem;  
+   border-radius: 5px;
+   background-color: rgba(36, 55, 121, 0.8);
+   color: whitesmoke;
+   border: none;
+}
+
+.btn2{
+  width:70px;
+  border-radius: 5px;
+  border: none;
+  padding: 1px 10px;
+  margin-left:10px;
+}
+.btn3{
+  border-radius: 5px;
+  padding: 1px 10px;
+  border: none;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .task-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    margin: 5px;
+    padding: 0.5rem 1.5rem; 
+    display: flex;
+    width: 50vw;
+    background-color:rgba(11, 68, 227, 0.492);
+    border-radius: 10px;
+    font-size: large;
+  }
+  .btn-edit{
+    display:flex; 
+    flex-direction:row;
+    align-items:center; 
+    justify-content:space-between;
+    width:43vw;
+  }
+  .btn-edit button{
+    border-radius: 5px;
+    padding: 1px 10px;
+    border: none;
+  }
+  .new-input{
+    margin-right: 10px;
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 3px 2px;
+  }
+ 
+
+ 
+  
